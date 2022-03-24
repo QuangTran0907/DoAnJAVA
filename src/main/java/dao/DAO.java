@@ -121,8 +121,8 @@ public class DAO {
             }
     public static void main(String[] args) {
         DAO x = new DAO();
-        List<CTSize> list = x.getCTSizes();
-        for (CTSize o : list) {
+        List<SanPham> list = x.getAllProduct();
+        for (SanPham o : list) {
             System.out.println(o);
         }
            }
