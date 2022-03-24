@@ -121,8 +121,8 @@ public class DAO {
             }
     public static void main(String[] args) {
         DAO x = new DAO();
-        List<SanPham> list = x.getAllProduct();
-        for (SanPham o : list) {
+        List<Hang> list = x.getHangs();
+        for (Hang o : list) {
             System.out.println(o);
         }
            }
